@@ -1,3 +1,8 @@
 #wrapper {
 	width = 960px;
 }
+
+#planetStats td, #planetStats th {
+	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%) fixed;
+	border-radius: 1em;
+}
