@@ -12,9 +12,15 @@
 }
 
 #planetStats td, #planetStats th {
-	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%) fixed;
+	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%);
 	border-radius: 1em;
+	margin: 1em;
 }
+
+#cell{
+	background: linear-gradient(#23AC01 0, #A17DD9F 100%);
+}
+
 #planetStats img {
 	height:50%;
 	width:50%;
