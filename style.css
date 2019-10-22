@@ -1,8 +1,21 @@
 #wrapper {
-	width = 960px;
+	width: 960px;
+}
+
+#planetHead {
+	text-align: center;
+}
+
+#planetStats {
+	width: 100%;
+	margin: 0 auto;
 }
 
 #planetStats td, #planetStats th {
 	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%) fixed;
 	border-radius: 1em;
+}
+#planetStats img {
+	height:50%;
+	width:50%;
 }
