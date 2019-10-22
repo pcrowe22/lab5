@@ -1,23 +1,29 @@
+.page{
+		background-color: black;
+}
+
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background-color: black;
 }
 
 #planetHead {
 	text-align: center;
+	color: white;
 }
 
 #planetStats {
 	width: 100%;
 	margin: 0 auto;
 	border-spacing: 20px;
+	border-collapse: separate;
 }
 
 #planetStats td, #planetStats th {
 	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%);
 	border-radius: 1em;
 	text-align: center;
+	width: 12.5%;
 }
 
 #cell{
