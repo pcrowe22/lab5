@@ -1,5 +1,7 @@
 #wrapper {
 	width: 960px;
+	margin: 0 auto;
+	background-color: black;
 }
 
 #planetHead {
@@ -9,12 +11,13 @@
 #planetStats {
 	width: 100%;
 	margin: 0 auto;
+	border-spacing: 20px;
 }
 
 #planetStats td, #planetStats th {
 	background: linear-gradient(#2F8FFF 0, #32A8FF 75%, #FFFFFF 100%);
 	border-radius: 1em;
-	margin: 1em;
+	text-align: center;
 }
 
 #cell{
@@ -22,6 +25,6 @@
 }
 
 #planetStats img {
-	height:50%;
-	width:50%;
+	height:25%;
+	width:25%;
 }
