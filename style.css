@@ -10,6 +10,7 @@
 #planetHead {
 	text-align: center;
 	color: white;
+	font-family: "Fascinate Inline", "courier new", monospace;
 }
 
 #planetStats {
@@ -24,6 +25,8 @@
 	border-radius: 1em;
 	text-align: center;
 	width: 12.5%;
+	font-family: "Baloo Bhai", "Times New Roman", serif;
+	margin: auto;
 }
 
 #cell{
@@ -31,6 +34,6 @@
 }
 
 #planetStats img {
-	height:100%;
 	width:100%;
+
 }
