@@ -1,5 +1,5 @@
 .page{
-		background-color: black;
+		background: url("navy.jpg");
 }
 
 #wrapper {
@@ -11,6 +11,8 @@
 	text-align: center;
 	color: white;
 	font-family: "Fascinate Inline", "courier new", monospace;
+	font-size: 3em;
+	margin: 0.5em;
 }
 
 #planetStats {
@@ -26,7 +28,7 @@
 	text-align: center;
 	width: 12.5%;
 	font-family: "Baloo Bhai", "Times New Roman", serif;
-	margin: auto;
+	vertical-align: middle;
 }
 
 #cell{
